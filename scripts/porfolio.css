@@ -265,6 +265,8 @@ footer {
 
 /***** CONTACT FORM STYLING *****/
 /* input[type=text] targets all text input sections of the contact form */
+input[type=tel],
+input[type=email],
 input[type=text] {
     width: 100%; /* Each input box covers the full width of the container */
     padding: 12px; /* Adds padding within the text box */
@@ -278,6 +280,8 @@ input[type=text] {
 }
 
 /* Hover effects for input boxes */
+input[type=tel],
+input[type=email],
 input[type=text]:hover {
     box-shadow: 0 0 5px #00004d inset; /* This creates a blue shadow in the text box when hovered over by the user */
 }
