@@ -382,6 +382,8 @@ form {
 }
 
 /* Slideshow text */
+.email,
+.tel,
 .text {
     color: white; 
     padding: 1vw;
